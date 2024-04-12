@@ -1,0 +1,8 @@
+use LP2;
+CREATE TABLE pc_brinquedos(
+ id_brinquedos INT identity(1,1),
+ modelo VARCHAR(50),
+ marca VARCHAR(40),
+ faixa_etaria INT,
+ Datacad DATETIME,
+);
